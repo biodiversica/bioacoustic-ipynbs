@@ -15,8 +15,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Salve resultados de detecção como arquivos CSV
 - Limiar de confiança configurável e opções de pré-processamento
 
-📓 **Arquivo:** [`googledrive_audio_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_audio_analyzer_pt-BR.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_audio_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`googledrive_audio_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/googledrive_audio_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/googledrive_audio_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -28,8 +28,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Configuração mais rápida com parâmetros padrão para BirdNET
 - Todos os recursos do analisador de áudio geral
 
-📓 **Arquivo:** [`googledrive_birdnet_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_birdnet_analyzer_pt-BR.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_birdnet_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`googledrive_birdnet_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/googledrive_birdnet_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/googledrive_birdnet_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -42,8 +42,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Salve resultados no Google Drive para visualização
 - Sem necessidade de baixar arquivos de áudio — analise no lugar
 
-📓 **Arquivo:** [`arbimon_audio_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_audio_analyzer_pt-BR.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_audio_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`arbimon_audio_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/arbimon_audio_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/arbimon_audio_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -55,8 +55,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Nenhum download manual de áudio necessário
 - Todos os recursos do analisador geral de Arbimon
 
-📓 **Arquivo:** [`arbimon_birdnet_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_birdnet_analyzer_pt-BR.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_birdnet_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`arbimon_birdnet_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/arbimon_birdnet_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/arbimon_birdnet_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -73,8 +73,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Extraia clipes de áudio para cada detecção
 - Revisor interativo baseado na web com visualizador de espectrograma
 
-📓 **Arquivo:** [`classification_results_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/classification_results_analyzer_pt-BR.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/classification_results_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`classification_results_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/classification_results_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/classification_results_analyzer_pt-BR.ipynb)
 
 ---
 
