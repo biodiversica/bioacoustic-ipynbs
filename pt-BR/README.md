@@ -15,8 +15,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Salve resultados de detecção como arquivos CSV
 - Limiar de confiança configurável e opções de pré-processamento
 
-🔗 **Abrir no Colab:**
-- [`googledrive_audio_analyzer_pt-BR.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/googledrive_audio_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`googledrive_audio_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_audio_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_audio_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -28,8 +28,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Configuração mais rápida com parâmetros padrão para BirdNET
 - Todos os recursos do analisador de áudio geral
 
-🔗 **Abrir no Colab:**
-- [`googledrive_birdnet_analyzer_pt-BR.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/googledrive_birdnet_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`googledrive_birdnet_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_birdnet_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/googledrive_birdnet_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -42,8 +42,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Salve resultados no Google Drive para visualização
 - Sem necessidade de baixar arquivos de áudio — analise no lugar
 
-🔗 **Abrir no Colab:**
-- [`arbimon_audio_analyzer_pt-BR.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/arbimon_audio_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`arbimon_audio_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_audio_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_audio_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -55,8 +55,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Nenhum download manual de áudio necessário
 - Todos os recursos do analisador geral de Arbimon
 
-🔗 **Abrir no Colab:**
-- [`arbimon_birdnet_analyzer_pt-BR.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/arbimon_birdnet_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`arbimon_birdnet_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_birdnet_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/arbimon_birdnet_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -73,8 +73,8 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
 - Extraia clipes de áudio para cada detecção
 - Revisor interativo baseado na web com visualizador de espectrograma
 
-🔗 **Abrir no Colab:**
-- [`classification_results_analyzer_pt-BR.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/classification_results_analyzer_pt-BR.ipynb)
+📓 **Arquivo:** [`classification_results_analyzer_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/classification_results_analyzer_pt-BR.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/pt-BR/classification_results_analyzer_pt-BR.ipynb)
 
 ---
 
@@ -88,7 +88,9 @@ Notebooks Jupyter interativos para análise bioacústica de gravações de campo
    - BirdNET → use notebooks BirdNET especializados (configuração mais rápida)
    - Outro modelo → use notebooks gerais de Audio Analyzer
 
-3. **Execute no Colab**: Clique no link acima, nenhuma instalação necessária
+3. **Abra o notebook**:
+   - Clique no link do notebook para visualizá-lo no GitHub
+   - Clique no botão "Open in Colab" (no GitHub) ou copie para seu Jupyter local
 
 4. **Siga os passos**: Cada notebook tem instruções claras passo a passo
 

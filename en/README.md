@@ -15,8 +15,8 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 - Save detection results as CSV files
 - Configurable confidence threshold and preprocessing options
 
-🔗 **Open in Colab:**
-- [`googledrive_audio_analyzer.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/googledrive_audio_analyzer.ipynb)
+📓 **File:** [`googledrive_audio_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/en/googledrive_audio_analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/en/googledrive_audio_analyzer.ipynb)
 
 ---
 
@@ -28,8 +28,8 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 - Faster setup with default parameters for BirdNET
 - All features of the general audio analyzer
 
-🔗 **Open in Colab:**
-- [`googledrive_birdnet_analyzer.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/googledrive_birdnet_analyzer.ipynb)
+📓 **File:** [`googledrive_birdnet_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/en/googledrive_birdnet_analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/en/googledrive_birdnet_analyzer.ipynb)
 
 ---
 
@@ -42,8 +42,8 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 - Save results back to Google Drive for visualization
 - No need to download audio files — analyze in place
 
-🔗 **Open in Colab:**
-- [`arbimon_audio_analyzer.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_audio_analyzer.ipynb)
+📓 **File:** [`arbimon_audio_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/en/arbimon_audio_analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/en/arbimon_audio_analyzer.ipynb)
 
 ---
 
@@ -55,8 +55,8 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 - No manual audio download required
 - All features of the general Arbimon analyzer
 
-🔗 **Open in Colab:**
-- [`arbimon_birdnet_analyzer.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_birdnet_analyzer.ipynb)
+📓 **File:** [`arbimon_birdnet_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/en/arbimon_birdnet_analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/en/arbimon_birdnet_analyzer.ipynb)
 
 ---
 
@@ -73,8 +73,8 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 - Extract audio clips for each detection
 - Interactive web-based segment reviewer with spectrogram viewer
 
-🔗 **Open in Colab:**
-- [`classification_results_analyzer.ipynb`](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/classification_results_analyzer.ipynb)
+📓 **File:** [`classification_results_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/main/en/classification_results_analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/main/en/classification_results_analyzer.ipynb)
 
 ---
 
@@ -88,7 +88,9 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
    - BirdNET → use specialized BirdNET notebooks (faster setup)
    - Other model → use general Audio Analyzer notebooks
 
-3. **Run in Colab**: Click the link above, no installation needed
+3. **Open the notebook**:
+   - Click the notebook link to view it on GitHub
+   - Click the "Open in Colab" button (in GitHub) or copy to your local Jupyter
 
 4. **Follow the steps**: Each notebook has clear step-by-step instructions
 
