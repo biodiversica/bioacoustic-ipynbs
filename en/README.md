@@ -12,7 +12,7 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 - Load audio files directly from your Google Drive
 - Run a neural network model (BirdNET, Perch, or custom) on all recordings
 - Supports multiple recording sites (organized as subfolders)
-- Save detection results as CSV files
+- Save detection results as one CSV per recording, then merge them into a single CSV
 - Configurable confidence threshold and preprocessing options
 
 📓 **File:** [`googledrive_audio_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/googledrive_audio_analyzer.ipynb)
@@ -39,7 +39,7 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 - Connect to your Arbimon account and access your audio library
 - Run neural network models on Arbimon recordings
 - Automatic datetime parsing from Arbimon metadata
-- Save results back to Google Drive for visualization
+- Save results back to Google Drive for visualization, merged into a single CSV
 - No need to download audio files — analyze in place
 
 📓 **File:** [`arbimon_audio_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_audio_analyzer.ipynb)
@@ -63,7 +63,7 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 ### 5. Classification Results Analyzer
 **Post-process, visualize, and review detection results**
 
-- Load results from any audio classification tool (CSV or TXT format)
+- Load results from any audio classification tool (CSV or TXT format), from a folder of result files **or** a single merged CSV
 - Merge multiple result files automatically
 - Generate publication-ready plots:
   - Species × site heatmaps
@@ -75,6 +75,49 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 
 📓 **File:** [`classification_results_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/classification_results_analyzer.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/classification_results_analyzer.ipynb)
+
+---
+
+## 🧬 Embeddings Pipeline
+
+The three notebooks below form an optional two-stage workflow: compute embeddings once with a foundation-model backbone, then classify (or search) them many times without re-running the heavy backbone.
+
+### 6. Compute Embeddings Database
+**Extract reusable audio embeddings from a foundation model backbone**
+
+- Read audio from Google Drive or an Arbimon project
+- Load a backbone model from HuggingFace (Perch v2, BirdNET, or custom ONNX)
+- Compute one embedding per audio segment and store them in a SQLite `*.embeddings.db` file
+- Embeddings are computed once and reused by the two notebooks below
+
+📓 **File:** [`compute_embeddings_database.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/compute_embeddings_database.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/compute_embeddings_database.ipynb)
+
+---
+
+### 7. Audio Classification from Embeddings
+**Run a lightweight classifier head over a pre-computed embeddings database**
+
+- Apply an ONNX or TFLite classifier head on top of stored embeddings (no backbone re-run)
+- Search a single `.db` file or a whole folder of them in one run
+- Resumable: one result file per recording, so a crashed Colab run picks up where it stopped
+- Merge all per-recording results into a single CSV ready for the Results Analyzer
+
+📓 **File:** [`audio_classification_from_embeddings.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/audio_classification_from_embeddings.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/audio_classification_from_embeddings.ipynb)
+
+---
+
+### 8. Embeddings Database Vector Search
+**Find audio that sounds like your example clips — no trained classifier required**
+
+- Provide a few short example clips ("templates"); each filename (or subfolder) becomes a label
+- Compute a template embedding per clip, then run a vector similarity search against one or more embeddings databases
+- Tune Top-K, similarity metric (cosine / dot / euclidean), and score threshold
+- Extract and review the matching audio segments — all within the same notebook
+
+📓 **File:** [`embeddings_db_vector_search.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/embeddings_db_vector_search.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/embeddings_db_vector_search.ipynb)
 
 ---
 
@@ -125,11 +168,16 @@ Interactive Jupyter notebooks for bioacoustic analysis of field recordings.
 ## Output
 
 ### From Audio Analyzers
-CSV files with detections:
+CSV files with detections (one per recording, plus a single merged CSV):
 - Site, date, time, recording timestamp
 - Species label and confidence score
 - Start/end time within the recording
 - Optional: site coordinates
+
+### From the Embeddings Pipeline
+- A reusable SQLite `*.embeddings.db` database (Compute Embeddings Database)
+- Detection CSVs from a classifier head (Audio Classification from Embeddings)
+- Similarity-match CSVs and extracted/reviewed clips (Embeddings Database Vector Search)
 
 ### From Results Analyzer
 - High-resolution PNG plots (heatmaps, scatter plots, bar charts)
