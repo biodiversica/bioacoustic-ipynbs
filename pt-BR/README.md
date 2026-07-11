@@ -4,6 +4,8 @@
 
 ## 📊 Análise de Áudio
 
+> ⚠️ **Problema conhecido (desde março de 2026):** A plataforma Arbimon está atualmente em manutenção, e seu SDK Python (`rfcx`) não está baixando as gravações de áudio dos projetos de forma confiável. Isso afeta todo notebook com opção de Arbimon: **#3 e #4** (que rodam inteiramente sobre o Arbimon), e a opção de *fonte*/*extração* via Arbimon nos notebooks **#5, #6 e #8**. Até que isso seja resolvido pela própria plataforma, utilize o Google Drive como fonte de áudio nesses notebooks (#1, #2, e a opção `google_drive` nos demais).
+
 ### 1. Análise de Áudios no Google Drive utilizando Modelos de Classificação
 Este notebook acessa gravações de áudio diretamente no seu **Google Drive** para executar um **Modelo de Classificação por Rede Neural** e detectar espécies específicas em cada gravação.
 
