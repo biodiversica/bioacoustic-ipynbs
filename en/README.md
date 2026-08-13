@@ -111,3 +111,19 @@ This notebook finds audio segments that are **similar to pre-selected audio temp
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/embeddings_db_vector_search.ipynb)
 
 ---
+
+## 📊 Validation
+
+### 9. Model Validation (Precision / Recall Sweep)
+This notebook measures how well a classification model performs on **annotated** recordings from your **Google Drive**, and plots the full precision/recall trade-off.
+
+- Read audio and ground truth from Google Drive (Raven selection tables, Audacity label tracks, or a single CSV)
+- Run the model **once** and keep its raw logits — every operating point is then evaluated almost for free
+- Sweep score thresholds × sigmoid biases and compare the detections against the annotations
+- Count TP/FP/FN per annotation event, per model window, or per recording
+- Plot precision and recall curves — one figure per label, one coloured pair of curves per bias
+
+📓 **File:** [`model_validation.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/model_validation.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/model_validation.ipynb)
+
+---
