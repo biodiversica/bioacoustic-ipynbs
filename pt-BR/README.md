@@ -115,13 +115,13 @@ Este notebook encontra segmentos de áudio que **possuam similaridade com templa
 ## 📊 Validação
 
 ### 9. Validação de Modelo (Precisão / Recall)
-Este notebook mede o desempenho de um modelo de classificação em gravações **anotadas** do seu **Google Drive**, e traça a curva de compromisso completa entre precisão e recall.
+Este notebook mede o desempenho de um modelo de classificação em gravações **anotadas** do seu **Google Drive**, e traça a curva entre precisão e recall.
 
 - Leia áudio e anotações de referência do Google Drive (tabelas de seleção do Raven, faixas de rótulos do Audacity, ou um único CSV)
-- Execute o modelo **uma única vez** e guarde os logits brutos — cada ponto de operação é então avaliado quase de graça
+- Execute o modelo **uma única vez** e armazene os logits — cada ponto de operação é então avaliado
 - Varie limiares de pontuação × bias do sigmoide e compare as detecções com as anotações
-- Conte TP/FP/FN por evento anotado, por janela do modelo, ou por gravação
-- Trace curvas de precisão e recall — uma figura por rótulo, um par de curvas colorido por bias
+- Avalie TP/FP/FN por evento anotado, por janela do modelo, ou por gravação
+- Trace curvas de precisão e recall — uma figura por rótulo, um par de curvas por bias
 
 📓 **Arquivo:** [`model_validation_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/model_validation_pt-BR.ipynb)
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/model_validation_pt-BR.ipynb)
