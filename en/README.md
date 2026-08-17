@@ -7,7 +7,7 @@
 > ⚠️ **Known issue (since March 2026):** The Arbimon platform is currently under maintenance, and its Python SDK (`rfcx`) is not reliably downloading audio recordings from projects. This affects every notebook with an Arbimon option: **#3 and #4** (which run entirely on Arbimon), and the Arbimon *source*/*extraction* option in **#5, #6, and #8**. Until this is resolved upstream, use Google Drive as your audio source in those notebooks (#1, #2, and the `google_drive` option elsewhere).
 
 ### 1. Audio Analysis in Google Drive using Classification Models
-This notebook accesses audio recordings directly in your **Google Drive** to run a **Neural Network Classification Model** and detect specific species in each recording.
+This notebook accesses audio recordings directly in your **Google Drive** to run a **Neural Network Classification Model** and detect specific sounds in each recording.
 
 - Load audio files directly from your Google Drive
 - Run a neural network model (BirdNET, Perch, or custom) on all recordings
@@ -31,7 +31,7 @@ This notebook accesses audio recordings directly in your **Google Drive** to run
 ---
 
 ### 3. Audio Analysis in Arbimon Projects using Classification Models
-This notebook downloads recordings from your **Arbimon** projects to run an external **Neural Network Classification Model** and detect specific species in each recording.
+This notebook downloads recordings from your **Arbimon** projects to run an external **Neural Network Classification Model** and detect specific sounds in each recording.
 
 - Connect to your Arbimon account and access your audio library
 - Run neural network models on Arbimon recordings

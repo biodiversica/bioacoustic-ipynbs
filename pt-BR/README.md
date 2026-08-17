@@ -7,7 +7,7 @@
 > ⚠️ **Atenção (desde março de 2026):** A plataforma Arbimon está atualmente em manutenção, e seu SDK Python (`rfcx`) não está baixando as gravações de áudio dos projetos. Isso afeta todo notebook com opção de acesso a projetos do Arbimon: **#3 e #4** (que rodam inteiramente sobre o Arbimon), e a opção de acesso a áudios/extração de segmentos via Arbimon nos notebooks **#5, #6 e #8**. Até que isso seja resolvido pela própria plataforma, apenas o Google Drive funcionará como local de acesso a arquivos de áudio nesses notebooks (#1, #2, e a opção `google_drive` nos demais).
 
 ### 1. Análise de Áudios no Google Drive utilizando Modelos de Classificação
-Este notebook acessa gravações de áudio diretamente no seu **Google Drive** para executar um **Modelo de Classificação por Rede Neural** e detectar espécies específicas em cada gravação.
+Este notebook acessa gravações de áudio diretamente no seu **Google Drive** para executar um **Modelo de Classificação por Rede Neural** e detectar sons específicos em cada gravação.
 
 - Carregue arquivos de áudio diretamente do seu Google Drive
 - Execute um modelo de rede neural (BirdNET, Perch ou customizado) em todas as gravações
@@ -31,7 +31,7 @@ Este notebook acessa gravações de áudio diretamente no seu **Google Drive** p
 ---
 
 ### 3. Análise de Áudios em Projetos do Arbimon utilizando Modelos de Classificação
-Este notebook baixa gravações dos seus projetos no **Arbimon** para executar um **Modelo de Classificação por Rede Neural** externo e detectar espécies específicas em cada gravação.
+Este notebook baixa gravações dos seus projetos no **Arbimon** para executar um **Modelo de Classificação por Rede Neural** externo e detectar sons específicos em cada gravação.
 
 - Conecte à sua conta Arbimon e acesse sua biblioteca de áudio
 - Execute modelos de rede neural em gravações do Arbimon
