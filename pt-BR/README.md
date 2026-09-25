@@ -128,3 +128,19 @@ Este notebook mede o desempenho de um modelo de classificação em gravações *
 
 ---
 
+
+## 📊 Visualização
+
+### 10. Calendário de Espectrogramas
+Este notebook cria um **calendário de espectrogramas em HTML** a partir das gravações no seu **Google Drive**, utilizando o [spectro-calendar](https://github.com/biodiversica/spectro-calendar) — uma miniatura por gravação, com as datas nas colunas e os horários nas linhas.
+
+- Leia os áudios diretamente do Google Drive, com filtros por intervalo de datas, horário e passo de tempo
+- Gere os espectrogramas com ffmpeg (rápido) ou scipy, na faixa de frequência e na paleta de cores que preferir
+- Abra o calendário dentro do notebook, com os players de áudio reproduzindo direto do seu Drive
+- Marque as gravações de interesse e exporte a seleção em uma lista `.txt` (modo de anotação)
+- Baixe o calendário completo em um `.zip`, opcionalmente com os áudios incluídos
+
+📓 **Arquivo:** [`spectro_calendar_pt-BR.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/spectro_calendar_pt-BR.ipynb)
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/pt-BR/spectro_calendar_pt-BR.ipynb)
+
+---

@@ -127,3 +127,19 @@ This notebook measures how well a classification model performs on **annotated**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/model_validation.ipynb)
 
 ---
+
+## 📊 Visualization
+
+### 10. Spectrogram Calendar
+This notebook builds a browsable **HTML calendar of spectrograms** from the recordings in your **Google Drive**, using [spectro-calendar](https://github.com/biodiversica/spectro-calendar) — one thumbnail per recording, dates as columns and times of day as rows.
+
+- Read audio directly from Google Drive, with filters by date range, time of day and time step
+- Generate the spectrograms with ffmpeg (fast) or scipy, in the frequency band and palette of your choice
+- Open the calendar inside the notebook, with audio players streaming straight from your Drive
+- Tick the recordings of interest and export the selection as a `.txt` list (annotation mode)
+- Download the whole calendar as a `.zip`, optionally with the audio bundled in
+
+📓 **File:** [`spectro_calendar.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/spectro_calendar.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/spectro_calendar.ipynb)
+
+---
