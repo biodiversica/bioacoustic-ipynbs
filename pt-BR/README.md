@@ -19,7 +19,7 @@ Este notebook acessa gravações de áudio diretamente no seu **Google Drive** p
 ---
 
 ### 2. Análise de Áudios no Google Drive utilizando o BirdNET
-Este notebook acessa gravações de áudio diretamente no seu **Google Drive** para executar o **BirdNET v2.4** e detectar espécies em cada gravação.
+Este notebook acessa gravações de áudio diretamente no seu **Google Drive** para executar o **BirdNET 3.0** (ou o modelo anterior, 2.4) e detectar espécies em cada gravação.
 
 - Carregue arquivos de áudio diretamente do seu Google Drive
 - Pré-configurado para utilização do BirdNET (classificador de sons de aves)
@@ -45,7 +45,7 @@ Este notebook baixa gravações dos seus projetos no **Arbimon** para executar u
 ---
 
 ### 4. Análise de Áudios em Projetos do Arbimon utilizando o BirdNET
-Este notebook acessa gravações dos seus projetos no **Arbimon** para executar o **BirdNET v2.4** e detectar espécies em cada gravação.
+Este notebook acessa gravações dos seus projetos no **Arbimon** para executar o **BirdNET 3.0** (ou o modelo anterior, 2.4) e detectar espécies em cada gravação.
 
 - Pré-configurado para BirdNET em gravações do Arbimon
 - Conecte ao Arbimon e detecte automaticamente espécies de aves

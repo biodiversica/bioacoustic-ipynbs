@@ -19,7 +19,7 @@ This notebook accesses audio recordings directly in your **Google Drive** to run
 ---
 
 ### 2. Audio Analysis in Google Drive using BirdNET
-This notebook accesses audio recordings directly in your **Google Drive** to run **BirdNET v2.4** and detect species in each recording.
+This notebook accesses audio recordings directly in your **Google Drive** to run **BirdNET 3.0** (or the previous 2.4 model) and detect species in each recording.
 
 - Load audio files directly from your Google Drive
 - Pre-configured to use BirdNET (bird sound classifier)
@@ -45,7 +45,7 @@ This notebook downloads recordings from your **Arbimon** projects to run an exte
 ---
 
 ### 4. Audio Analysis in Arbimon Projects using BirdNET
-This notebook accesses recordings from your **Arbimon** projects to run **BirdNET v2.4** and detect species in each recording.
+This notebook accesses recordings from your **Arbimon** projects to run **BirdNET 3.0** (or the previous 2.4 model) and detect species in each recording.
 
 - Pre-configured for BirdNET on Arbimon recordings
 - Connect to Arbimon and automatically detect bird species
