@@ -30,7 +30,7 @@ This notebook accesses audio recordings directly in your **Google Drive** to run
 
 ---
 
-### 3. Audio Analysis in Arbimon Projects using Classification Models
+### ⚠️ $\color{#E57373}{\text{3. Audio Analysis in Arbimon Projects using Classification Models (currently not working)}}$
 This notebook downloads recordings from your **Arbimon** projects to run an external **Neural Network Classification Model** and detect specific sounds in each recording.
 
 - Connect to your Arbimon account and access your audio library
@@ -40,11 +40,11 @@ This notebook downloads recordings from your **Arbimon** projects to run an exte
 - Save results to Google Drive for visualization
 
 📓 **File:** [`arbimon_audio_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_audio_analyzer.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_audio_analyzer.ipynb)
+<!-- Colab button hidden while the Arbimon SDK is not working: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_audio_analyzer.ipynb) -->
 
 ---
 
-### 4. Audio Analysis in Arbimon Projects using BirdNET
+### ⚠️ $\color{#E57373}{\text{4. Audio Analysis in Arbimon Projects using BirdNET (currently not working)}}$
 This notebook accesses recordings from your **Arbimon** projects to run **BirdNET 3.0** (or the previous 2.4 model) and detect species in each recording.
 
 - Pre-configured for BirdNET on Arbimon recordings
@@ -55,7 +55,7 @@ This notebook accesses recordings from your **Arbimon** projects to run **BirdNE
 
 
 📓 **File:** [`arbimon_birdnet_analyzer.ipynb`](https://github.com/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_birdnet_analyzer.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_birdnet_analyzer.ipynb)
+<!-- Colab button hidden while the Arbimon SDK is not working: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/biodiversica/bioacoustic-ipynbs/blob/master/en/arbimon_birdnet_analyzer.ipynb) -->
 
 ---
 
