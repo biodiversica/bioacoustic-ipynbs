@@ -30,7 +30,10 @@ This notebook accesses audio recordings directly in your **Google Drive** to run
 
 ---
 
-### ⚠️ $\color{#E57373}{\text{3. Audio Analysis in Arbimon Projects using Classification Models (currently not working)}}$
+### ⚠️ 3. Audio Analysis in Arbimon Projects using Classification Models (currently not working)
+> [!CAUTION]
+> This notebook is currently not working: the Arbimon SDK is not downloading recordings. See the known issue at the top of this page.
+
 This notebook downloads recordings from your **Arbimon** projects to run an external **Neural Network Classification Model** and detect specific sounds in each recording.
 
 - Connect to your Arbimon account and access your audio library
@@ -44,7 +47,10 @@ This notebook downloads recordings from your **Arbimon** projects to run an exte
 
 ---
 
-### ⚠️ $\color{#E57373}{\text{4. Audio Analysis in Arbimon Projects using BirdNET (currently not working)}}$
+### ⚠️ 4. Audio Analysis in Arbimon Projects using BirdNET (currently not working)
+> [!CAUTION]
+> This notebook is currently not working: the Arbimon SDK is not downloading recordings. See the known issue at the top of this page.
+
 This notebook accesses recordings from your **Arbimon** projects to run **BirdNET 3.0** (or the previous 2.4 model) and detect species in each recording.
 
 - Pre-configured for BirdNET on Arbimon recordings
